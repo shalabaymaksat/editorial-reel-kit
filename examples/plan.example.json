@@ -1,0 +1,35 @@
+{
+ "name": "01_brand_top_of_mind",
+ "zoom": "cut",
+ "shade": 0.18,
+ "word_delay": 0.1,
+ "music": {"file": "assets/music.mp3", "db": -32},
+ "scenes": [
+  {"s": 0.0, "type": "head", "top": [
+    {"at": 0.0, "t": "НЕГЕ", "font": "grotx", "size": 118, "color": "white"},
+    {"at": 0.35, "t": "бәсеке", "font": "serif", "size": 300, "color": "white"}]},
+  {"s": 2.4, "type": "clip", "clip": "broll/cut/stadium.mp4", "at": 0, "cx": 0.5,
+   "top": [{"at": 2.4, "t": "2026", "font": "grotx", "size": 250, "color": "white", "y": 800}]},
+  {"s": 4.6, "type": "stack", "parts": [
+    {"clip": "broll/cut/player_a.mp4", "at": 0, "cx": 0.5, "cy": 0.45},
+    {"clip": "broll/cut/player_b.mp4", "at": 0, "cx": 0.55, "cy": 0.4}]},
+  {"s": 7.0, "type": "head", "top": []},
+  {"s": 8.2, "type": "push", "a": "Top of Mind", "b": "Brand Positioning", "at": 9.0},
+  {"s": 10.1, "type": "check", "title": "Күшті бренд", "rows": ["Позиция", "Аудитория", "Тарих"], "ticks": [10.6, 11.3, 12.0]},
+  {"s": 12.8, "type": "compare",
+   "caps": [[12.8, "Сенің өнімің"], [13.4, "бәсекелесіңнен"], [14.0, "жақсы болуы мүмкін"]],
+   "rows": [{"at": 12.8, "t": "Сенің өнімің", "stars": 5}, {"at": 13.4, "t": "Бәсекелес", "stars": 3}]},
+  {"s": 15.0, "type": "head", "bw": true, "top": [{"at": 16.2, "t": "бірінші", "font": "serif", "size": 260, "color": "white"}]},
+  {"s": 18.0, "type": "number", "n": "1", "caps": [[18.1, "клиенттің"], [18.6, "санасындағы"], [19.2, "орын"]]},
+  {"s": 20.0, "type": "head", "top": [
+    {"at": 20.3, "t": "НАРЫҚТА", "font": "grotx", "size": 118, "color": "white"},
+    {"at": 20.7, "t": "мықты", "font": "serif", "size": 270, "color": "mint"}]}
+ ],
+ "words": [
+  {"at": 0.0, "t": "Неге"}, {"at": 0.35, "t": "бәсеке"}, {"at": 0.8, "t": "соншалықты"}, {"at": 1.4, "t": "қиын", "style": "m"},
+  {"at": 7.0, "t": "Мұны"}, {"at": 7.4, "t": "маркетингпен"}, {"at": 7.9, "t": "түсіндіруге болады"},
+  {"at": 15.0, "t": "Бірақ"}, {"at": 15.5, "t": "клиенттің ойына"}, {"at": 16.2, "t": "бірінші"}, {"at": 16.8, "t": "түспесе"},
+  {"at": 20.0, "t": "Нарықта"}, {"at": 20.7, "t": "мықты болу"}, {"at": 21.3, "t": "маңызды", "style": "m"}
+ ],
+ "sfx": []
+}

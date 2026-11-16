@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+inbox/
+broll/
+assets/
+projects/
+ready/
+*.wav
+*.mp4
