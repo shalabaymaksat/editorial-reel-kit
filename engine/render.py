@@ -463,7 +463,7 @@ def stage_compare(p, t, t0):
     rows = p['rows']
     top = 960 - (len(rows) - 1) * 75 * gs
     if cap:
-        blit(fr, text_alpha(cap, SERI, fit_size(cap, SERI, 92)), 540, top - 140 * gs, COLORS['ink_blue'], scale=gs)
+        blit(fr, text_alpha(cap, SERI, fit_size(cap, SERI, 92, 820)), 540, top - 140 * gs, COLORS['ink_blue'], scale=gs)
     for i, r in enumerate(rows):
         on = t2o(r['at']) + DELAY - .05
         if t >= on:
